@@ -1,0 +1,19 @@
+.inventory-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 35px;
+    padding-left: 110px;
+    text-align: justify;
+    font-family: sans-serif;
+    color: rgb(7, 55, 55);
+}
+.grocery-title{
+    text-align: center;
+    font-family: Arvo;
+    color: rgb(7, 55, 55);
+}
+@media only screen and (max-width:588px){
+    .inventory-container{
+        display: block;
+    }
+}

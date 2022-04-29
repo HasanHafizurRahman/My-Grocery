@@ -1,0 +1,22 @@
+.footer{
+    display: flex;
+    /* grid-template-columns: repeat(2, 1fr); */
+    align-items: center;
+    justify-content: space-around;
+    color: azure;
+    background: rgb(7, 55, 55);
+    padding: 35px;
+    font-family: Railway;
+}
+
+.link{
+    padding-left: 8px;
+    color: aliceblue;
+}
+@media only screen and (max-width: 588px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}

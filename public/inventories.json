@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1, 
+        "name": "beef curry",
+        "price": "180BDT",
+        "description":"lorem",
+        "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
+        "quantity": 3,
+        "supplierName": "Bengal Food"
+    },
+    {
+        "id": 2,
+        "name": "camel curry",
+        "price": "180BDT", 
+        "description":"lorem",
+        "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
+        "quantity": 3,
+        "supplierName": "Bengal Food"
+    },
+    {
+        "id": 3,
+        "name": "sheep curry",
+        "price": "180BDT",
+        "description":"lorem", 
+        "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
+        "quantity": 3,
+        "supplierName": "Bengal Food"
+    },
+    {
+        "id": 4,
+        "name": "duck curry",
+        "price": "180BDT",
+       "description":"",
+        "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
+        "quantity": 3,
+        "supplierName": "Bengal Food"
+    },
+    {
+        "id": 5,
+        "name": "chicken curry",
+        "price": "180BDT",
+        "description":"lorem", 
+        "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
+        "quantity": 3,
+        "supplierName": "Bengal Food"
+    },
+    {
+        "id": 6,
+        "name": "mutton curry",
+        "price": "180BDT",
+        "description": "lorem",
+        "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
+        "quantity": 3,
+        "supplierName": "Bengal Food"
+    },
+    {
+        "id": 7,
+        "name": "mutton curry",
+        "price": "180BDT",
+        "description": "lorem",
+        "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
+        "quantity": 3,
+        "supplierName": "Bengal Food"
+    },
+    {
+        "id": 8,
+        "name": "mutton curry",
+        "price": "180BDT",
+        "description": "lorem",
+        "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
+        "quantity": 3,
+        "supplierName": "Bengal Food"
+    },
+    {
+        "id": 9,
+        "name": "mutton curry",
+        "price": "180BDT",
+        "description": "lorem",
+        "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
+        "quantity": 3,
+        "supplierName": "Bengal Food"
+    },
+    {
+        "id": 10,
+        "name": "mutton curry",
+        "price": "180BDT",
+        "description": "lorem",
+        "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
+        "quantity": 3,
+        "supplierName": "Bengal Food"
+    }
+]
