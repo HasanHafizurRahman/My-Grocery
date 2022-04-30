@@ -30,7 +30,7 @@
         "id": 4,
         "name": "duck curry",
         "price": "180BDT",
-       "description":"",
+       "description":"lorem",
         "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
         "quantity": 3,
         "supplierName": "Bengal Food"

@@ -10,7 +10,7 @@ const Inventories = () => {
             .then(data => setInventories(data))
     }, [])
     return (
-        <div>
+        <div id='inventories' >
             <h1 className="grocery-title">Our Grocery Inventories</h1>
             <div className="inventory-container">
                 {
