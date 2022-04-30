@@ -11,8 +11,8 @@ const Header = () => {
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
       <Nav.Link href="home#inventories">Inventories</Nav.Link>
-      <Nav.Link href="home#allItems">All Items</Nav.Link>
-      <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+      <Nav.Link as={Link} to="blog">Blogs</Nav.Link>
+      <NavDropdown title="Premium Dropdown" id="collasible-nav-dropdown">
         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
@@ -21,7 +21,7 @@ const Header = () => {
       </NavDropdown>
     </Nav>
     <Nav>
-      <Nav.Link as={Link} to="blog">Blogs</Nav.Link>
+      <Nav.Link as={Link} to="signup">SignUp</Nav.Link>
       <Nav.Link as={Link} to="login">LogIn</Nav.Link>
     </Nav>
   </Navbar.Collapse>
