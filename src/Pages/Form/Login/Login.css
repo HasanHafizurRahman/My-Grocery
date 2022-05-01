@@ -1,54 +1,75 @@
-.body-div{
-    margin: 0;
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
-    font-family: Lato;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-items: center;
-    color: #555;
+.login-container {
+    position: relative;
+    width: 350px;
+    margin: 4rem auto;
+    height: 500px;
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
     background: #ecf0f3;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
 }
-.login-div{
-    margin-top: 20px;
-    width: 430px;
-    height: 700px;
-    padding: 60px 35px 35px 35px;
-    border-radius: 40px;
-    background: #ecf0f3;
-    display: block;
-    justify-content: center;
-    box-shadow: 13px 13px 20px #cbced1,
-                -13px -13px 20px #ffffff;
-}
-.title{
+
+
+.login-title {
     text-align: center;
-    font-size: 28px;
-    padding-top: 24px;
-    letter-spacing: 0.5px;
+    margin-top: 10px;
+    font-weight: 900;
+    font-size: 1.8rem;
+    color: #6c6b69fb;
+    letter-spacing: 1px;
 }
-.fields{
+
+.login-form {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.login-container label,
+.login-container input,
+.login-container button {
+    display: block;
     width: 100%;
-    padding: 75px 5px 5px 5px;
-}
-.fields input{
-    border: 1px #555;
-    border-radius: 15px;
-    background: none;
+    padding: 0;
+    border: none;
     outline: none;
-    font-size: 18px;
-    color: #555;
-    padding: 20px 10px 20px 5px;
-    box-shadow: 13px 13px 20px #cbced1,
-                -13px -13px 20px #ffffff;
+    box-sizing: border-box;
 }
-.username, .password, .email{
-    margin-bottom: 30px;
-    border-radius: 25px;
-    box-shadow: inset 8px 8px 8px #cbced1,
-               inset -8px -8px -8px #ffffff;
-    padding-left: 60px;
+
+.login-container label {
+    margin-bottom: 4px;
+    color: gray;
+    margin: 15px 0 5px 5px;
+    
+}
+
+.login-container input::placeholder {
+    color: gray;
+}
+
+.login-container input {
+    background: #ecf0f3;
+    margin: 15px 0 0 0;
+    padding: 10px;
+    padding-left: 20px;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+.login-container button {
+    color: white;
+    margin-top: 20px;
+    background: #6c6b69fb;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+    transition: 0.5s;
+}
+
+.login-container button:hover {
+    box-shadow: none;
 }

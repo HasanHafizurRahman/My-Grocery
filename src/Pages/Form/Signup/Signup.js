@@ -3,27 +3,31 @@ import { Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Signup = () => {
+
+    const handleSignUp = event =>{
+        event.preventDefault();
+        const name = event.target.name.value;
+        const email = event.target.email.value;
+        const password = event.target.password.value;
+        
+    }
     return (
-        <div className='body-div'>
-        <div className="login-div">
-            <h2 className='title'>Please SignUp</h2>
-            <Form>
-            <div className="fields">
-                <div className="username">
+        <div className="login-container">
+        <div className="login-title">PLEASE SignUp</div>
+            <Form className="login-form" onSubmit={handleSignUp}>
+            
                     <input type="username" className="user-input" placeholder="Enter Your Name" />
-                </div>
-                <div className="email">
+                
                     <input type="email" className='pass-input' placeholder='Enter Email' required/>
-                </div>
-                <div className="password">
+                
                     <input type="password" className='pass-input' placeholder='Enter Password' required/>
-                </div>
+                
+                    <input type="confirm-password" className='pass-input' placeholder='Confirm Password' required/>
+                
                 <button className='btn btn-secondary d-block w-100'>Sign Up</button>
-            </div>
             </Form>
-            <p className='text-center'>Already have an account? <Link to='/login' className='text-primary pe-auto'>Please LogIn</Link></p>
+            <p className='text-center'>Already have an account? <Link to='/login' className='text-primary pe-auto text-decoration-none'>Please LogIn</Link></p>
         </div>
-    </div>
     );
 };
 
