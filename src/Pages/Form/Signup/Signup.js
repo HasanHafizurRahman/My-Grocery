@@ -1,28 +1,39 @@
 import React from 'react';
 import { Form } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import auth from '../../../firebase.init';
 
 const Signup = () => {
+    const [
+        createUserWithEmailAndPassword,
+        user,
+        loading,
+        error,
+      ] = useCreateUserWithEmailAndPassword(auth);
+      const navigate = useNavigate();
+
+      if(user){
+          navigate('/home');
+      }
 
     const handleSignUp = event =>{
         event.preventDefault();
         const name = event.target.name.value;
         const email = event.target.email.value;
         const password = event.target.password.value;
-        
+        createUserWithEmailAndPassword(email, password);
     }
     return (
         <div className="login-container">
         <div className="login-title">PLEASE SignUp</div>
             <Form className="login-form" onSubmit={handleSignUp}>
             
-                    <input type="username" className="user-input" placeholder="Enter Your Name" />
+                    <input type="username" name="name" className="user-input" placeholder="Enter Your Name" />
                 
-                    <input type="email" className='pass-input' placeholder='Enter Email' required/>
+                    <input type="email" name="email" className='pass-input' placeholder='Enter Email' required/>
                 
-                    <input type="password" className='pass-input' placeholder='Enter Password' required/>
-                
-                    <input type="confirm-password" className='pass-input' placeholder='Confirm Password' required/>
+                    <input type="password" name="password" className='pass-input' placeholder='Enter Password' required/>
                 
                 <button className='btn btn-secondary d-block w-100'>Sign Up</button>
             </Form>

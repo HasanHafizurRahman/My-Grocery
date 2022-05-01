@@ -1,7 +1,9 @@
 
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Checkout from './Pages/Checkout/Checkout';
 import Login from './Pages/Form/Login/Login';
+import RequireAuth from './Pages/Form/Login/RequireAuth/RequireAuth';
 import Signup from './Pages/Form/Signup/Signup';
 import Home from './Pages/Home/Home';
 import InventoryDetail from './Pages/InventoryDetail/InventoryDetail';
@@ -19,6 +21,11 @@ function App() {
         <Route path='/inventory/:inventoryId' element={<InventoryDetail></InventoryDetail>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/signup' element={<Signup></Signup>}></Route>
+        <Route path='/checkout' element={
+          <RequireAuth>
+            <Checkout></Checkout>
+          </RequireAuth>}>
+        </Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
