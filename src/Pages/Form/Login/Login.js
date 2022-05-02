@@ -1,10 +1,15 @@
 import React, { useRef } from 'react';
 import { Form } from 'react-bootstrap';
-import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
+import Loading from '../../../Shared/Loading/Loading';
 
 import './Login.css'
+import SocialLogin from './SocialLogin/SocialLogin';
+
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Login = () => {
     const emailRef = useRef('');
@@ -20,7 +25,19 @@ const Login = () => {
         loading,
         error,
     ] = useSignInWithEmailAndPassword(auth);
+    const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth
+      );
 
+    const resetPassword =async()=>{
+        const email = emailRef.current.value;
+        if(email){
+            await sendPasswordResetEmail(email);
+            toast('Sent email');
+        }
+        else{
+            toast('Please enter your email');
+        }
+    }
     const handleSubmit = event => {
         event.preventDefault();
         const email = emailRef.current.value;
@@ -29,6 +46,9 @@ const Login = () => {
     }
     if(user){
         navigate(from, {replace: true});
+    }
+    if(loading || sending){
+        return <Loading></Loading>
     }
 
     return (
@@ -43,10 +63,13 @@ const Login = () => {
 
                 <input ref={passwordRef} type="password" className='pass-input' placeholder='Enter Password' required />
 
-                <button className='btn btn-secondary d-block w-100'>Log In</button>
+                <button style={{color: 'white', background: '#6c6b69fb', height: '40px', borderRadius: '20px', cursor: 'pointer', fontWeight: '900', boxShadow: '6px 6px 6px #cbced1, -6px -6px 6px white', transition: '0.5s', marginTop: '19px' }} className='btn btn-success' >Log In</button>
 
             </Form>
-            <p className='text-center'>New To My Grocery Dot Com? <Link to='/signup' className='text-primary pe-auto text-decoration-none' >Please SignUp</Link></p>
+            <p className='text-center pt-2'>New To My Grocery? <Link to='/signup' className='text-primary pe-auto text-decoration-none' >Please SignUp</Link></p>
+            <p className='text-center'>Forgot password? <button style={{}} className=' btn btn-link text-primary pe-auto text-decoration-none' onClick={resetPassword} >Reset Passsword</button></p>
+            <SocialLogin></SocialLogin>
+            <ToastContainer />
         </div>
     );
 };

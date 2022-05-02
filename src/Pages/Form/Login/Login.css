@@ -2,7 +2,7 @@
     position: relative;
     width: 350px;
     margin: 4rem auto;
-    height: 500px;
+    height: 590px;
     border-radius: 20px;
     padding: 40px;
     box-sizing: border-box;
@@ -59,7 +59,7 @@
 }
 
 .login-container button {
-    color: white;
+    /* color: white;
     margin-top: 20px;
     background: #6c6b69fb;
     height: 40px;
@@ -67,7 +67,7 @@
     cursor: pointer;
     font-weight: 900;
     box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
-    transition: 0.5s;
+    transition: 0.5s; */
 }
 
 .login-container button:hover {
