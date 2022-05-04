@@ -1,4 +1,5 @@
 import React from 'react';
+import GoogleMap from '../GoogleMap/GoogleMap';
 import Inventories from '../Inventories/Inventories';
 import Banner from './Banner/Banner';
 import './Home.css'
@@ -9,6 +10,9 @@ const Home = () => {
             <Banner></Banner>
             <br />
            <Inventories></Inventories>
+           <h2 className='text-center text-secondary'>Our Location</h2>
+          <div className='d-flex justify-content-center'> 
+           <GoogleMap></GoogleMap> </div>
         </div>
     );
 };
