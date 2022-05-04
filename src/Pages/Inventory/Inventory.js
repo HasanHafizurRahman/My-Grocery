@@ -17,7 +17,7 @@ const Inventory = ({inventory}) => {
             <p><small>{description}</small></p>
             <h6>Supplier:{supplierName} </h6>
             <p>Quantity:{quantity} </p>
-            <button onClick={()=>navigateInventory(id)} className='btn btn-primary'>Stock Update</button>
+            <button style={{borderRadius: '20px'}} onClick={()=>navigateInventory(id)} className='btn btn-secondary px-3'>Stock Update</button>
             </div>
         </div>
     );

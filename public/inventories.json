@@ -1,70 +1,70 @@
 [
     {
         "id": 1, 
-        "name": "beef curry",
-        "price": "180BDT",
-        "description":"lorem",
-        "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
-        "quantity": 3,
-        "supplierName": "Bengal Food"
+        "name": "Junior Horlicks",
+        "price": "20280BDT",
+        "description":"Products with electrical plugs are designed for use in the US. Outlets and voltage differ internationally and this product may require an adapter or converter for use in your destination. Please check compatibility before purchasing.",
+        "img": "https://i.ibb.co/6sPZwWS/horlicks-1.jpg",
+        "quantity": 38,
+        "supplierName": "Horlicks"
     },
     {
         "id": 2,
-        "name": "camel curry",
-        "price": "180BDT", 
-        "description":"lorem",
-        "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
-        "quantity": 3,
-        "supplierName": "Bengal Food"
+        "name": "Milk Biscuit",
+        "price": "5080BDT", 
+        "description":"Milk and Biscuits is a British / Chinese brand with an international approach to fashion. It is a family run business  with a soft spot for vintage finds, masculine tailoring and natural materials.  The products are built to last.",
+        "img": "https://i.ibb.co/wpxXjc4/milk-biscuit-1.jpg",
+        "quantity": 30,
+        "supplierName": "Milk & Biscuit"
     },
     {
         "id": 3,
-        "name": "sheep curry",
-        "price": "180BDT",
-        "description":"lorem", 
-        "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
-        "quantity": 3,
-        "supplierName": "Bengal Food"
+        "name": "Vita Milk",
+        "price": "4080BDT",
+        "description":"Vitamilk is a creamy and delicious soy milk made from fresh and natural whole soybeans.", 
+        "img": "https://i.ibb.co/zRdx83W/vita-milk-1.jpg",
+        "quantity": 23,
+        "supplierName": "Milk Vita"
     },
     {
         "id": 4,
-        "name": "duck curry",
-        "price": "180BDT",
-       "description":"lorem",
-        "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
-        "quantity": 3,
-        "supplierName": "Bengal Food"
+        "name": "Nestle Chocolate",
+        "price": "1800BDT",
+       "description":"Nestlé S.A. is a Swiss multinational food and drink processing conglomerate corporation headquartered in Switzerland.Fair Trade Chocolate Bars Made with Real Ingredients.Nessim Levy Ingredients reviews our dark chocolate peanut gems are colored by nature!",
+        "img": "https://i.ibb.co/f1bTTq2/nestle-chocolate-1.jpg",
+        "quantity": 33,
+        "supplierName": "Nestle"
     },
     {
         "id": 5,
-        "name": "chicken curry",
-        "price": "180BDT",
-        "description":"lorem", 
-        "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
+        "name": "Onion Soup",
+        "price": "2280BDT",
+        "description":"French onion soup is a soup usually based on meat stock and onions, and often served gratinéed with croutons or a larger piece of bread covered with cheese floating on top.", 
+        "img": "https://i.ibb.co/1rmwKL5/onion-soup-1.jpg",
         "quantity": 3,
         "supplierName": "Bengal Food"
     },
     {
         "id": 6,
-        "name": "mutton curry",
-        "price": "180BDT",
-        "description": "lorem",
-        "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
-        "quantity": 3,
+        "name": "Pran Chanachur",
+        "price": "2340BDT",
+        "description": "PRAN Chanachur is a mouth-watering snack of dried noodles blended with nuts, pulses and several hot spices. Add to cart Category: Local Snacks Description Chanachur is an appetizing snacks item.People love eating Chanachur with tea, cookies in their afternoon snacks.",
+        "img": "https://i.ibb.co/k62kNXg/pran-chanachur-1.jpg",
+        "quantity": 13,
         "supplierName": "Bengal Food"
     },
     {
         "id": 7,
-        "name": "mutton curry",
-        "price": "180BDT",
+        "name": "mutton curry masala",
+        "price": "1806BDT",
         "description": "lorem",
         "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
-        "quantity": 3,
+        "quantity": 33,
         "supplierName": "Bengal Food"
     },
     {
         "id": 8,
-        "name": "mutton curry",
+        "name": "mutton masala",
         "price": "180BDT",
         "description": "lorem",
         "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
@@ -82,6 +82,177 @@
     },
     {
         "id": 10,
+        "name": "mutton curry",
+        "price": "180BDT",
+        "description": "lorem",
+        "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
+        "quantity": 3,
+        "supplierName": "Bengal Food"
+    },
+    {
+        "id": 10,
+        "name": "mutton curry",
+        "price": "180BDT",
+        "description": "lorem",
+        "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
+        "quantity": 3,
+        "supplierName": "Bengal Food"
+    },
+    {
+        "id": 10,
+        "name": "mutton curry",
+        "price": "180BDT",
+        "description": "lorem",
+        "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
+        "quantity": 3,
+        "supplierName": "Bengal Food"
+    },
+    {
+        "id": 11,
+        "name": "mutton curry",
+        "price": "180BDT",
+        "description": "lorem",
+        "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
+        "quantity": 3,
+        "supplierName": "Bengal Food"
+    },
+    {
+        "id": 11,
+        "name": "mutton curry",
+        "price": "180BDT",
+        "description": "lorem",
+        "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
+        "quantity": 3,
+        "supplierName": "Bengal Food"
+    },
+    {
+        "id": 12,
+        "name": "mutton curry",
+        "price": "180BDT",
+        "description": "lorem",
+        "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
+        "quantity": 3,
+        "supplierName": "Bengal Food"
+    },
+    {
+        "id": 13,
+        "name": "mutton curry",
+        "price": "180BDT",
+        "description": "lorem",
+        "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
+        "quantity": 3,
+        "supplierName": "Bengal Food"
+    },
+    {
+        "id": 14,
+        "name": "mutton curry",
+        "price": "180BDT",
+        "description": "lorem",
+        "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
+        "quantity": 3,
+        "supplierName": "Bengal Food"
+    },
+    {
+        "id": 15,
+        "name": "mutton curry",
+        "price": "180BDT",
+        "description": "lorem",
+        "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
+        "quantity": 3,
+        "supplierName": "Bengal Food"
+    },
+    {
+        "id": 16,
+        "name": "mutton curry",
+        "price": "180BDT",
+        "description": "lorem",
+        "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
+        "quantity": 3,
+        "supplierName": "Bengal Food"
+    },
+    {
+        "id": 17,
+        "name": "mutton curry",
+        "price": "180BDT",
+        "description": "lorem",
+        "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
+        "quantity": 3,
+        "supplierName": "Bengal Food"
+    },
+    {
+        "id": 18,
+        "name": "mutton curry",
+        "price": "180BDT",
+        "description": "lorem",
+        "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
+        "quantity": 3,
+        "supplierName": "Bengal Food"
+    },
+    {
+        "id": 19,
+        "name": "mutton curry",
+        "price": "180BDT",
+        "description": "lorem",
+        "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
+        "quantity": 3,
+        "supplierName": "Bengal Food"
+    },
+    {
+        "id": 20,
+        "name": "mutton curry",
+        "price": "180BDT",
+        "description": "lorem",
+        "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
+        "quantity": 3,
+        "supplierName": "Bengal Food"
+    },
+    {
+        "id": 21,
+        "name": "mutton curry",
+        "price": "180BDT",
+        "description": "lorem",
+        "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
+        "quantity": 3,
+        "supplierName": "Bengal Food"
+    },
+    {
+        "id": 22,
+        "name": "mutton curry",
+        "price": "180BDT",
+        "description": "lorem",
+        "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
+        "quantity": 3,
+        "supplierName": "Bengal Food"
+    },
+    {
+        "id": 23,
+        "name": "mutton curry",
+        "price": "180BDT",
+        "description": "lorem",
+        "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
+        "quantity": 3,
+        "supplierName": "Bengal Food"
+    },
+    {
+        "id": 24,
+        "name": "mutton curry",
+        "price": "180BDT",
+        "description": "lorem",
+        "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
+        "quantity": 3,
+        "supplierName": "Bengal Food"
+    },
+    {
+        "id": 25,
+        "name": "mutton curry",
+        "price": "180BDT",
+        "description": "lorem",
+        "img": "https://i.ibb.co/4fCfBmN/th-2.jpg",
+        "quantity": 3,
+        "supplierName": "Bengal Food"
+    },
+    {
+        "id": 26,
         "name": "mutton curry",
         "price": "180BDT",
         "description": "lorem",
