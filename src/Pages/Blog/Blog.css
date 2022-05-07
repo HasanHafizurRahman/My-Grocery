@@ -1,0 +1,34 @@
+.grid-blog{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 10px;
+}
+.first-ques{
+    border: 1px dotted rgb(133, 63, 63);
+    border-top-right-radius: 30%;
+    border-top-left-radius: 30%;
+    padding: 20px;
+    padding-top: 30px;
+}
+.second-ques{
+    border: 1px dotted rgb(133, 63, 63);
+    border-top-right-radius: 30%;
+    border-top-left-radius: 30%;
+    padding: 20px;
+    padding-top: 35px;
+}
+.third-ques{
+    border: 1px dotted rgb(133, 63, 63);
+    border-top-right-radius: 30%;
+    border-top-left-radius: 30%;
+    padding: 20px;
+    padding-top: 50px;
+}
+.fourth-ques{
+    border: 1px dotted rgb(133, 63, 63);
+    border-top-right-radius: 30%;
+    border-top-left-radius: 30%;
+    padding: 20px;
+    padding-top: 60px;
+}

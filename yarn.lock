@@ -7822,6 +7822,11 @@
   "resolved" "https://registry.npmjs.org/react-firebase-hooks/-/react-firebase-hooks-5.0.3.tgz"
   "version" "5.0.3"
 
+"react-hook-form@^7.30.0":
+  "integrity" "sha512-DzjiM6o2vtDGNMB9I4yCqW8J21P314SboNG1O0obROkbg7KVS0I7bMtwSdKyapnCPjHgnxc3L7E5PEdISeEUcQ=="
+  "resolved" "https://registry.npmjs.org/react-hook-form/-/react-hook-form-7.30.0.tgz"
+  "version" "7.30.0"
+
 "react-icons@^4.3.1":
   "integrity" "sha512-cB10MXLTs3gVuXimblAdI71jrJx8njrJZmNMEMC+sQu5B/BIOmlsAjskdqpn81y8UBVEGuHODd7/ci5DvoSzTQ=="
   "resolved" "https://registry.npmjs.org/react-icons/-/react-icons-4.3.1.tgz"
@@ -7939,7 +7944,7 @@
     "loose-envify" "^1.4.0"
     "prop-types" "^15.6.2"
 
-"react@*", "react@^16.8 || ^17 || ^18", "react@^16.8.0 || ^17.0.0-rc.1", "react@^17.0.2", "react@>= 16", "react@>= 16.8.0", "react@>=0.14.0", "react@>=15.0.0", "react@>=16", "react@>=16.14.0", "react@>=16.6.0", "react@>=16.8", "react@>=16.8.0", "react@17.0.2":
+"react@*", "react@^16.8 || ^17 || ^18", "react@^16.8.0 || ^17 || ^18", "react@^16.8.0 || ^17.0.0-rc.1", "react@^17.0.2", "react@>= 16", "react@>= 16.8.0", "react@>=0.14.0", "react@>=15.0.0", "react@>=16", "react@>=16.14.0", "react@>=16.6.0", "react@>=16.8", "react@>=16.8.0", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"

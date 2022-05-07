@@ -63,7 +63,6 @@ const Login = () => {
 
                 <input ref={passwordRef} type="password" className='pass-input' placeholder='Enter Password' required />
 
-                <button style={{color: 'white', background: '#6c6b69fb', height: '40px', borderRadius: '20px', cursor: 'pointer', fontWeight: '900', boxShadow: '6px 6px 6px #cbced1, -6px -6px 6px white', transition: '0.5s', marginTop: '19px' }} className='btn btn-success' >Log In</button>
 
             </Form>
             <p className='text-center pt-2'>New To My Grocery? <Link to='/signup' className='text-primary pe-auto text-decoration-none' >Please SignUp</Link></p>

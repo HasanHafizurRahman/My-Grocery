@@ -11,7 +11,7 @@ const Home = () => {
             <br />
            <Inventories></Inventories>
            <h2 className='text-center text-secondary'>Our Location</h2>
-          <div className='d-flex justify-content-center'> 
+          <div> 
            <GoogleMap></GoogleMap> </div>
         </div>
     );
