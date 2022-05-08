@@ -8,7 +8,7 @@ import Loading from '../../../Shared/Loading/Loading';
 import './Login.css'
 import SocialLogin from './SocialLogin/SocialLogin';
 
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Login = () => {
@@ -68,7 +68,7 @@ const Login = () => {
             <p className='text-center pt-2'>New To My Grocery? <Link to='/signup' className='text-primary pe-auto text-decoration-none' >Please SignUp</Link></p>
             <p className='text-center'>Forgot password? <button style={{}} className=' btn btn-link text-primary pe-auto text-decoration-none' onClick={resetPassword} >Reset Passsword</button></p>
             <SocialLogin></SocialLogin>
-            <ToastContainer />
+            
         </div>
     );
 };

@@ -1,0 +1,29 @@
+.review{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 150px;
+    padding: 30px;
+}
+.first-review{
+    border: 1px double orangered;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.second-review{
+    border: 1px double orangered;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+
+
+
+@media only screen and (max-width:588px){
+    .review{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 0px;
+        text-align: center;
+        justify-content: center;
+    }
+}
