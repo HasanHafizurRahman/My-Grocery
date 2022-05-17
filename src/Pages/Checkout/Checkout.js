@@ -19,14 +19,14 @@ const Checkout = () => {
             email: user.email,
             inventory: inventory.name,
             inventoryId: inventoryId,
-            address: event.target.address.value,
-            phone: event.target.phone.value
+            address: event.target?.address.value,
+            phone: event.target?.phone.value
         }
-        axios.post('http://localhost:5000/', order)
+        axios.post('https://shielded-hollows-28190.herokuapp.com/order', order)
         .then(response =>{
            const {data} =response; 
             if(data.insertedId){
-                toast('Your Order is Booked');
+                alert('Your Order is Booked');
                 event.target.reset();
             }
         })
@@ -36,18 +36,19 @@ const Checkout = () => {
         <div className='w-50 mx-auto'>
             <h2>Please order this {inventory.name}</h2>
             <form onSubmit={handleOrder}>
-                <input className='w-100 mb-2' type="text" value={user?.displayName} name='name' placeholder='name' required />
+                <input className='w-100 mb-2' type="text" defaultValue={user?.displayName} name='name' placeholder='name' required />
                 <br />
-                <input className='w-100 mb-2' type="email" value={user?.email} name='email' placeholder='email' required />
+                <input className='w-100 mb-2' type="email" defaultValue={user?.email} name='email' placeholder='email' required readOnly disabled />
                 <br />
-                <input className='w-100 mb-2' type="text" value={inventory.name} name='inventory' placeholder='inventory' required />
+                <input className='w-100 mb-2' type="text" defaultValue={inventory.name} name='inventory' placeholder='inventory' required />
                 <br />
-                <input className='w-100 mb-2' type="text"  value={user.address} name='address' placeholder='address' required />
+                <input className='w-100 mb-2' type="text"  defaultValue={user.address} name='address' placeholder='address' required />
                 <br />
-                <input className='w-100 mb-2' type="text" value={user.phone} name='number' placeholder='number' required />
+                <input className='w-100 mb-2' type="text" defaultValue={user.phone} name='number' placeholder='number' required />
                 <br />
                 <input className='btn btn-secondary mb-2' type="submit" value="Place Order" />
             </form>
+            <ToastContainer/>
         </div>
     );
 };

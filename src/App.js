@@ -12,6 +12,7 @@ import Home from './Pages/Home/Home';
 import InventoryDetail from './Pages/InventoryDetail/InventoryDetail';
 import ManageInventories from './Pages/ManageInventories/ManageInventories';
 import Order from './Pages/Order/Order';
+
 import Footer from './Shared/Footer/Footer';
 import Header from './Shared/Header/Header';
 import NotFound from './Shared/NotFound/NotFound';
@@ -31,6 +32,11 @@ function App() {
             <Checkout></Checkout>
           </RequireAuth>}>
         </Route>
+        <Route path="/orders" element={
+          <RequireAuth>
+            <Order></Order>
+          </RequireAuth>
+        }></Route>
         <Route path='/addinventory' element={
           <RequireAuth>
             <AddService></AddService>
